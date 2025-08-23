@@ -1,4 +1,16 @@
-# 🤖 Discord News Bot
+# 🤖 Discord Infos Bot
+
+### 🚨 PROBLÉMATIQUE DU BOT 🚨
+
+**💡 COMMENT EMPÊCHER LES VIRUS ET LES PIRATAGES SUR NOS APPAREILS ? 💡**
+─────────────────────────────────────────────────────
+> Ce bot publie automatiquement des articles liés à la cybersécurité pour vous aider à rester informé.  
+> ⚠️ Les articles sont uniquement à titre **informatif** et ne remplacent pas des conseils professionnels.  
+> ✅ Vérifiez toujours les informations avant de les appliquer.
+
+
+---
+
 
 Un bot **Discord** en Python permettant de recenser chaque jour des articles dans un salon dédié, filtrés selon une **liste de mots-clés**.  
 Chaque article est analysé, reçoit un **score** basé sur le nombre de mots-clés détectés, et est publié dans un salon d’actualités.  
@@ -118,20 +130,13 @@ Pour lancer le classement hebdomadaire :
 
 4. Publie dans Discord avec format clair :  
 
-```text
-[2025] 🔹 X victime d’une attaque DDoS
-🔗 Lire l’article : https://...
-Score : 8 pts
-```
+![Aperçu du bot](assets/messageHebdomadaire.png)
+
 
 5. Génère un **Top 10** hebdomadaire :  
 
-```text
-🏆 Top 10 des articles de la semaine :
-1️⃣ [2025] Cyberattaque majeure... (12 pts)
-2️⃣ [2024] Phishing Astaroth... (10 pts)
-...
-```
+![Aperçu du top 10](assets/top10.png)
+
 
 ---
 
