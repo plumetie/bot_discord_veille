@@ -1,14 +1,14 @@
-# 🤖 Discord Infos Bot
+# 🤖 Bot Discord veille informatique
 
 ### 🚨 PROBLÉMATIQUE DU BOT 🚨
 
 **💡 COMMENT EMPÊCHER LES VIRUS ET LES PIRATAGES SUR NOS APPAREILS ? 💡**
 ─────────────────────────────────────────────────────
-> Ce bot publie automatiquement des articles liés à la cybersécurité pour vous aider à rester informé.  
+> Avec la configuration de base, ce bot suit cette problèmatique et publie automatiquement des articles liés à la cybersécurité pour vous aider à rester informé.  
 > ⚠️ Les articles sont uniquement à titre **informatif** et ne remplacent pas des conseils professionnels.  
 > ✅ Vérifiez toujours les informations avant de les appliquer.
 
-
+- Pour modifier le thèmes des articles il vous faudra changer les flux RSS ainsi que les mots clés ( Cela est expliqué dans les étapes de configuration du bot ci-dessous ).
 ---
 
 
@@ -69,13 +69,13 @@ pip install -r requirements.txt
 La configuration se fait **directement dans les fichiers Python** :
 
 - 🔑 **Token Discord**  
-  Dans `bot.py`, à la fin du fichier :  
+  Dans `bot.py`, à la fin du fichier saisir votre Token Discord :  
   ```python
-  client.run("TON_TOKEN_DISCORD")
+  client.run('TON_TOKEN_DISCORD')
   ```
 
 - 📝 **Salon d’actualités (quotidien)**  
-  Dans `bot.py`, la fonction :  
+  Dans `bot.py`, dans la fonction suivante, saisir l'id du channel où vous souhaitez publier les articles :  
   ```python
   async def boucle_quotidienne():
       await client.wait_until_ready()
@@ -83,7 +83,7 @@ La configuration se fait **directement dans les fichiers Python** :
   ```
 
 - 🏆 **Salon du Top 10 hebdomadaire**  
-  Dans `top10.py`, la variable :  
+  Dans `top10.py`, sasir dans la variable l'ID du salon ou vous souhaitez publier le top 10 :  
   ```python
   CHANNEL_ID = ID_DU_CHANNEL_ICI
   ```
