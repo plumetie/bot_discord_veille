@@ -100,9 +100,7 @@ python bot.py
 
 Pour lancer le classement hebdomadaire :
 
-```bash
-python top10.py
-```
+> Celui-ci s'exécutera automatiquement 2 minutes après la publications quotidienne des articles
 
 ---
 
