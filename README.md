@@ -21,6 +21,22 @@ Idéal pour faire de la veille informatique automatisée sur un serveur Discord.
 
 ---
 
+## 📑 Table des matières
+
+- [✨ Fonctionnalités](#✨-fonctionnalités)
+- [🛠️ Installation](#🛠️-installation)
+  - [1. Cloner le projet](#1-cloner-le-projet)
+  - [2. Installer les dépendances](#2-installer-les-dépendances)
+  - [3. Configurer le bot](#3-configurer-le-bot)
+  - [4. Définir les mots-clés](#4-définir-les-mots-clés)
+  - [5. Lancer le bot](#5-lancer-le-bot)
+- [🔎 Fonctionnement](#🔎-fonctionnement)
+- [🚀 Améliorations futures](#🚀-améliorations-futures)
+- [🤝 Contribution](#🤝-contribution)
+- [📄 Licence](#📄-licence)
+
+
+---
 ## 🛠️ Installation
 
 ### 1. Cloner le projet
