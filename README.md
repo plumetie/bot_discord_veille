@@ -8,7 +8,7 @@ Idéal pour faire de la veille informatique automatisée sur un serveur Discord.
 
 ---
 
-## ✨ Fonctionnalités
+## ✨Fonctionnalités
 
 - 📡 **Récupération d’articles** à partir de flux RSS configurés  
 - 📝 **Filtrage par mots-clés** (ex: *cyberattaque, phishing, pare-feu…*)  
@@ -23,20 +23,20 @@ Idéal pour faire de la veille informatique automatisée sur un serveur Discord.
 
 ## 📑 Table des matières
 
-- [✨ Fonctionnalités](#✨-fonctionnalités)
-- [🛠️ Installation](#🛠️-installation)
+- [✨ Fonctionnalités](#fonctionnalités)
+- [🛠️ Installation](#installation)
   - [1. Cloner le projet](#1-cloner-le-projet)
   - [2. Installer les dépendances](#2-installer-les-dépendances)
-- [⚙️ Configurer le bot](#⚙️-Configuration)
-- [▶️Lancer le bot](#▶️-Lancer-le-bot)
-- [🔎 Fonctionnement](#🔎-fonctionnement)
-- [🚀 Améliorations futures](#🚀-améliorations-futures)
-- [🤝 Contribution](#🤝-contribution)
-- [📄 Licence](#📄-licence)
+- [⚙️ Configurer le bot](#configuration)
+- [▶️ Lancer le bot](#lancer-le-bot)
+- [🔎 Fonctionnement](#fonctionnement)
+- [🚀 Améliorations futures](#améliorations-futures)
+- [🤝 Contribution](#contribution)
+- [📄 Licence](#licence)
 
 
 ---
-## 🛠️ Installation
+## 🛠Installation
 
 ### 1. Cloner le projet
 ```bash
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Configuration
+## ⚙Configuration
 
 La configuration se fait **directement dans les fichiers Python** :
 
@@ -90,7 +90,7 @@ La configuration se fait **directement dans les fichiers Python** :
 
 ---
 
-## ▶️ Lancer le bot
+## ▶Lancer le bot
 
 Exécuter simplement le script principal :
 
@@ -106,7 +106,7 @@ python top10.py
 
 ---
 
-## 🔎 Fonctionnement
+## 🔎Fonctionnement
 
 1. Le bot collecte les articles depuis les flux RSS définis.  
 2. Analyse le contenu : recherche de mots-clés dans le titre et la description.  
@@ -137,7 +137,7 @@ Score : 8 pts
 
 ---
 
-## 🚀 Améliorations futures
+## 🚀Améliorations futures
 
 - Commandes Discord `/config` pour changer les mots-clés et salons  
 - Export automatique du Top 10 en `.pdf` ou `.md`  
@@ -145,7 +145,7 @@ Score : 8 pts
 
 ---
 
-## 🤝 Contribution
+## 🤝Contribution
 
 Les contributions sont les bienvenues !
 
@@ -155,7 +155,7 @@ Les contributions sont les bienvenues !
 
 ---
 
-## 📄 Licence
+## 📄Licence
 
 Ce projet est sous licence MIT.  
 Libre à vous de l’utiliser et de l’adapter à vos besoins.
