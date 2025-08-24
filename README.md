@@ -52,8 +52,8 @@ Idéal pour faire de la veille informatique automatisée sur un serveur Discord.
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/ton-compte/discord-news-bot.git
-cd discord-news-bot
+git clone https://github.com/plumetie/bot_discord_veille.git
+cd bot_discord_veille
 ```
 
 ### 2. Installer les dépendances
